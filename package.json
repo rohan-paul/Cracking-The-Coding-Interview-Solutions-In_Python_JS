@@ -1,0 +1,31 @@
+{
+  "name": "crackingthecodinginterview",
+  "version": "1.0.0",
+  "description": "Cracking the Coding Interview questions implemented in javascript",
+  "main": "ReadMe.md",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan-paul/Cracking-The-Coding-Interview-Book-Solutions-In_JavaScript.git"
+  },
+  "author": "Rohan Paul",
+  "license": "ISC",
+  "keywords": [
+    "js-ctci",
+    "interview",
+    "coding",
+    "algorithms"
+  ],
+  "bugs": {
+    "url": "https://github.com/rohan-paul/Cracking-The-Coding-Interview-Book-Solutions-In_JavaScript/issues"
+  },
+  "homepage": "https://github.com/rohan-paul/Cracking-The-Coding-Interview-Book-Solutions-In_JavaScript#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "tape": "^4.8.0"
+  }
+}
