@@ -19,7 +19,8 @@ D> With the for loop, for each character in str1, I am setting its "UTF-16 code 
 
 E> Compare the occurrence of each character, using the char value as index into an array of counts.
 
-Time Complexity: O(n) . */
+Time Complexity: O(n) .  Space Complexity: O(1) given - 2**16 ints
+*/
 
 function isPermutation(str1, str2) {
   if (str1.length !== str2.length) {
